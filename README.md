@@ -15,14 +15,14 @@ Written by someone who has never written a single line of code by hand, yet buil
 ## 🎬 Launch Film · 15 seconds
 
 <p align="center">
-  <a href="launch-film.mp4">
-    <img src="screenshots/launch-film-thumb.png" width="70%" alt="Click to play the 15-second launch film" />
-  </a>
+  <img src="launch-film.gif" width="80%" alt="Codex Orange Book — 15-second launch film" />
 </p>
 
 <p align="center">
-  <em>15-second launch film · uses OpenAI's official VI · designed with <a href="https://github.com/alchaincyf/huashu-design">Huashu-Design</a></em><br/>
-  <strong><a href="launch-film.mp4">▶ Click thumbnail to play / right-click → Save link as to download</a></strong>
+  <em>Uses OpenAI's official visual identity. Designed with <a href="https://github.com/alchaincyf/huashu-design">Huashu-Design</a>.</em><br/>
+  <a href="launch-film.mp4">⬇ Download 1080p MP4</a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/alchaincyf/codex-orange-book/raw/main/launch-film.mp4">↗ Direct link</a>
 </p>
 
 ## What's New
@@ -87,13 +87,6 @@ This book doesn't sugarcoat. Things you'll find called out:
 - Full Access mode on Windows has deleted user files (370 GB, 700 GB, 240 GB reports) — never enable it
 - MultiAgentV2 has three unfixed GitHub issues (#16657, #17523, #14233) as of v2 release
 - Codex on mobile (May 14) is the Desktop App's remote companion, not a standalone phone agent — don't confuse them
-
-## Preview
-
-<p align="center">
-  <img src="screenshots/cover.png" width="45%" />
-  <img src="screenshots/content-preview.png" width="45%" />
-</p>
 
 ## Orange Book Series
 
