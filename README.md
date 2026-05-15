@@ -12,6 +12,19 @@ The definitive guide to OpenAI Codex — covering all **five forms**: CLI, Deskt
 
 Written by someone who has never written a single line of code by hand, yet built an App Store #1 paid app, published 8 technical books, and runs a 300K-follower content operation — all powered by AI.
 
+## 🎬 Launch Film · 15 seconds
+
+<p align="center">
+  <a href="launch-film.mp4">
+    <img src="screenshots/launch-film-thumb.png" width="70%" alt="Click to play the 15-second launch film" />
+  </a>
+</p>
+
+<p align="center">
+  <em>15-second launch film · uses OpenAI's official VI · designed with <a href="https://github.com/alchaincyf/huashu-design">Huashu-Design</a></em><br/>
+  <strong><a href="launch-film.mp4">▶ Click thumbnail to play / right-click → Save link as to download</a></strong>
+</p>
+
 ## What's New
 
 **v2.0.1 (May 15, 2026)** — addendum release:
