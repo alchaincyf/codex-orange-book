@@ -1,7 +1,13 @@
 [English README](README.md) | **中文**
 
 <p align="center">
-  <img src="banner.png" width="55%" />
+  <a href="README.md"><img src="banner-en.png" width="44%" alt="English edition cover" /></a>
+  &nbsp;&nbsp;
+  <a href="README_zh.md"><img src="banner.png" width="44%" alt="Chinese edition cover" /></a>
+</p>
+
+<p align="center">
+  <sub>← <a href="README.md">English edition</a> &nbsp;·&nbsp; <a href="README_zh.md">中文版</a> →</sub>
 </p>
 
 # OpenAI Codex 从入门到精通
