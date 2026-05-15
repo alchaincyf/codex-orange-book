@@ -28,7 +28,7 @@ Written by someone who has never written a single line of code by hand, yet buil
   <em>Uses OpenAI's official visual identity. Designed with <a href="https://github.com/alchaincyf/huashu-design">Huashu-Design</a>.</em><br/>
   <a href="launch-film.mp4">⬇ Download 1080p MP4</a>
   &nbsp;·&nbsp;
-  <a href="https://github.com/alchaincyf/codex-orange-book/raw/main/launch-film.mp4">↗ Direct link</a>
+  <a href="launch-film-zh.mp4">中文版</a>
 </p>
 
 ## What's New
