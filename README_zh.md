@@ -6,16 +6,19 @@
 
 # OpenAI Codex 从入门到精通
 
-> 橙皮书系列 · 花叔 著 · v2.0.0（2026年5月）
+> 橙皮书系列 · 花叔 著 · v2.0.1（2026 年 5 月）· 提供 **中文** 与 **英文** 双版本
 
-OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App、Cloud、IDE 扩展、Chrome 扩展。从安装到独立构建产品，一周内带你从零起步。
+OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App、Cloud、IDE 扩展、Chrome 扩展，外加 5 月 14 日发布的手机伴侣端。从安装到独立构建产品，一周内带你从零起步。
 
 作者从未手写过一行代码，却用 AI 做出了 App Store 付费榜第一的产品、出版了 8 本技术书、运营着 30 万粉丝的自媒体矩阵。
 
-## v2.0.0 改了什么
+## 更新说明
 
-v1 是 2026 年 4 月 14 日完稿的。一个月后 Codex 大幅变化，必须出 v2：
+**v2.0.1（2026-05-15）** — 临门补丁：
+- 加入 **Codex 手机版** 一节（2026-05-14 发布）：Codex 集成进 ChatGPT 手机端，本质是桌面 Codex App 的远程控制面板。§01、§06、附录 C 都做了对应说明。
+- **英文版同步上线**，地道母语行文，不是直译。
 
+**v2.0.0（2026-05-14）** — 一个月迭代之后的大改：
 - **GPT-5.5** 空降默认模型：SWE-bench Verified 82.6%、Terminal-Bench 2.0 82.7%、输出 token 降 40%
 - **形态从四种变五种**：Codex for Chrome 5 月 7 日上线；桌面 App 一次性放出 Computer Use、In-App Browser、Memory、图像生成和跨天续跑的 Automations
 - **Auto-review 改变审批模型**：约 99% 低风险动作自动通过，不再每次打断
@@ -26,11 +29,21 @@ v1 是 2026 年 4 月 14 日完稿的。一个月后 Codex 大幅变化，必须
 
 ## 下载
 
+### 中文版
+
 | 格式 | 文件 | 大小 |
 |------|------|------|
-| PDF | [**Codex-Complete-Guide-zh-v2.0.0.pdf**](Codex-Complete-Guide-zh-v2.0.0.pdf) | 7.5 MB |
-| EPUB（微信读书优化版） | [**Codex-Complete-Guide-zh-v2.0.0.epub**](Codex-Complete-Guide-zh-v2.0.0.epub) | 5.6 MB |
-| HTML（单文件） | [**Codex-Complete-Guide-zh-v2.0.0.html**](Codex-Complete-Guide-zh-v2.0.0.html) | 214 KB |
+| PDF | [**Codex-Complete-Guide-zh-v2.0.1.pdf**](Codex-Complete-Guide-zh-v2.0.1.pdf) | 4.2 MB |
+| EPUB（微信读书优化版） | [**Codex-Complete-Guide-zh-v2.0.1.epub**](Codex-Complete-Guide-zh-v2.0.1.epub) | 5.6 MB |
+| HTML（单文件） | [**Codex-Complete-Guide-zh-v2.0.1.html**](Codex-Complete-Guide-zh-v2.0.1.html) | 220 KB |
+
+### 英文版 (English edition)
+
+| 格式 | 文件 | 大小 |
+|------|------|------|
+| PDF | [**Codex-Complete-Guide-en-v2.0.1.pdf**](Codex-Complete-Guide-en-v2.0.1.pdf) | 1.7 MB |
+| EPUB | [**Codex-Complete-Guide-en-v2.0.1.epub**](Codex-Complete-Guide-en-v2.0.1.epub) | 5.6 MB |
+| HTML（单文件） | [**Codex-Complete-Guide-en-v2.0.1.html**](Codex-Complete-Guide-en-v2.0.1.html) | 232 KB |
 
 > 💡 PDF 文件建议下载后阅读，体验更佳。GitHub 在线预览可能无法完整渲染。
 
@@ -38,8 +51,8 @@ v1 是 2026 年 4 月 14 日完稿的。一个月后 Codex 大幅变化，必须
 
 | 部分 | 章节 | 主题 |
 |------|------|------|
-| **基础** | §01–§03 | Codex 五种形态 · 10 分钟安装 · 你的第一个项目 |
-| **日常工作流** | §04–§06 | CLI 深度使用（Auto-review 与沙箱）· AGENTS.md · 桌面 App 五件套 |
+| **基础** | §01–§03 | Codex 五种形态（含手机版尾声）· 10 分钟安装 · 你的第一个项目 |
+| **日常工作流** | §04–§06 | CLI 深度使用（Auto-review 与沙箱）· AGENTS.md · 桌面 App 五件套与手机伴侣 |
 | **超出本地机器** | §07–§08 | Cloud 与 Chrome 扩展 · Skills、MCP、Automations、/goal 四大扩展能力 |
 | **构建真实产品** | §09–§10 | 从想法到上线 · Codex + Claude Code 双线开发者心智模型 |
 | **附录** | A–C | 命令速查（含 `/vim`、`/hooks`、`/goal`、`/ide`、`codex remote-control`）· 定价（三档 Pro）· 常见问题 |
@@ -60,6 +73,7 @@ v1 是 2026 年 4 月 14 日完稿的。一个月后 Codex 大幅变化，必须
 - GPT-5.5 在 Codex 内 1M 上下文实际可用约 258K
 - Windows 上 Full Access 模式确实删过用户全盘文件（370GB / 700GB / 240GB 多人证实），绝对不要开
 - MultiAgentV2 仍有三个 GitHub 未修 bug（#16657 / #17523 / #14233）
+- Codex 手机版（5/14）是桌面 App 的远程伴侣，不是手机上独立跑的 agent——别搞混
 
 ## 预览
 

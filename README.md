@@ -6,16 +6,19 @@
 
 # OpenAI Codex: The Complete Guide
 
-> Orange Book Series by HuaShu (花叔) · v2.0.0 (May 2026)
+> Orange Book Series by HuaShu (花叔) · v2.0.1 (May 2026) · Available in **English** and **Chinese**
 
-The definitive guide to OpenAI Codex — covering all **five forms**: CLI, Desktop App, Cloud, IDE Extension, and the new Chrome Extension. From installation to shipping products, this book takes you from zero to building independently in a week.
+The definitive guide to OpenAI Codex — covering all **five forms**: CLI, Desktop App, Cloud, IDE Extension, and the new Chrome Extension, plus the mobile companion shipped on May 14. From installation to shipping products, this book takes you from zero to building independently in a week.
 
 Written by someone who has never written a single line of code by hand, yet built an App Store #1 paid app, published 8 technical books, and runs a 300K-follower content operation — all powered by AI.
 
-## What's New in v2.0.0
+## What's New
 
-v1 was finalized on April 14, 2026. One month later, Codex changed enough to require a major revision:
+**v2.0.1 (May 15, 2026)** — addendum release:
+- Added a coda on **Codex on mobile** (shipped May 14, 2026): Codex inside the ChatGPT mobile app, a remote control surface for your desktop Codex App. Covered in §01, §06, and the FAQ.
+- **English edition now available** alongside the Chinese edition — native-prose translation, not a literal one.
 
+**v2.0.0 (May 14, 2026)** — major revision after one month of Codex changes:
 - **GPT-5.5** landed as the default model (SWE-bench Verified 82.6%, Terminal-Bench 2.0 82.7%, 40% fewer output tokens)
 - **Five forms, not four**: Codex for Chrome shipped on May 7; Desktop App got Computer Use, In-App Browser, Memory, Image Generation, and multi-day Automations
 - **Auto-review** changed the approval model: ~99% of low-risk actions now flow through without interrupting you
@@ -26,11 +29,21 @@ See §00 for the full v1 → v2 changelog.
 
 ## Download
 
+### English edition
+
 | Format | File | Size |
 |--------|------|------|
-| PDF | [**Codex-Complete-Guide-zh-v2.0.0.pdf**](Codex-Complete-Guide-zh-v2.0.0.pdf) | 7.5 MB |
-| EPUB (WeChat Reading optimized) | [**Codex-Complete-Guide-zh-v2.0.0.epub**](Codex-Complete-Guide-zh-v2.0.0.epub) | 5.6 MB |
-| HTML (single file) | [**Codex-Complete-Guide-zh-v2.0.0.html**](Codex-Complete-Guide-zh-v2.0.0.html) | 214 KB |
+| PDF | [**Codex-Complete-Guide-en-v2.0.1.pdf**](Codex-Complete-Guide-en-v2.0.1.pdf) | 1.7 MB |
+| EPUB | [**Codex-Complete-Guide-en-v2.0.1.epub**](Codex-Complete-Guide-en-v2.0.1.epub) | 5.6 MB |
+| HTML (single file) | [**Codex-Complete-Guide-en-v2.0.1.html**](Codex-Complete-Guide-en-v2.0.1.html) | 232 KB |
+
+### Chinese edition (中文版)
+
+| Format | File | Size |
+|--------|------|------|
+| PDF | [**Codex-Complete-Guide-zh-v2.0.1.pdf**](Codex-Complete-Guide-zh-v2.0.1.pdf) | 4.2 MB |
+| EPUB (WeChat Reading optimized) | [**Codex-Complete-Guide-zh-v2.0.1.epub**](Codex-Complete-Guide-zh-v2.0.1.epub) | 5.6 MB |
+| HTML (single file) | [**Codex-Complete-Guide-zh-v2.0.1.html**](Codex-Complete-Guide-zh-v2.0.1.html) | 220 KB |
 
 > 💡 Download the PDF for the best reading experience. GitHub's online preview may not render properly.
 
@@ -38,8 +51,8 @@ See §00 for the full v1 → v2 changelog.
 
 | Part | Chapters | Topics |
 |------|----------|--------|
-| **Foundations** | §01–§03 | Five forms of Codex · 10-minute install · Your first project |
-| **Daily Workflow** | §04–§06 | CLI deep dive (Auto-review + sandbox) · AGENTS.md · Desktop App (Computer Use + 5-piece suite) |
+| **Foundations** | §01–§03 | Five forms of Codex (+ mobile coda) · 10-minute install · Your first project |
+| **Daily Workflow** | §04–§06 | CLI deep dive (Auto-review + sandbox) · AGENTS.md · Desktop App (Computer Use + 5-piece suite + Mobile Companion) |
 | **Beyond the Local Machine** | §07–§08 | Cloud + Chrome extension · Skills, MCP, Automations, /goal — the four extension layers |
 | **Building Real Things** | §09–§10 | From idea to shipped product · Dual-tool mental model (Codex + Claude Code) |
 | **Appendices** | A–C | Command reference (incl. `/vim`, `/hooks`, `/goal`, `/ide`, `codex remote-control`) · Pricing (three Pro tiers) · FAQ |
@@ -60,6 +73,7 @@ This book doesn't sugarcoat. Things you'll find called out:
 - 1M context in Codex is actually ~258K usable
 - Full Access mode on Windows has deleted user files (370 GB, 700 GB, 240 GB reports) — never enable it
 - MultiAgentV2 has three unfixed GitHub issues (#16657, #17523, #14233) as of v2 release
+- Codex on mobile (May 14) is the Desktop App's remote companion, not a standalone phone agent — don't confuse them
 
 ## Preview
 
