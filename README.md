@@ -125,7 +125,7 @@ Creator of Kitty Light (小猫补光灯, App Store #1 Paid App), author of 8 Ora
 
 This book is also available on WorkBuddy's knowledge base, one page per chapter — or just drop the link into your agent as context.
 
-https://www.workbuddy.cn/space/d/6X9tCSrgcsEx
+https://www.workbuddy.cn/space/d/6X9tCSrgcsExJxZV9zSRhS
 
 All orange books: https://www.workbuddy.cn/space/d/YcllWXknAUoMk6lFSWdfbI
 

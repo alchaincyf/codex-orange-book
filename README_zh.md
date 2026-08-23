@@ -125,7 +125,7 @@ OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App�
 
 本书已同步到 WorkBuddy 资料库：每章一个网页，也可以直接把链接丢给你的 Agent 当上下文。
 
-https://www.workbuddy.cn/space/d/6X9tCSrgcsEx
+https://www.workbuddy.cn/space/d/6X9tCSrgcsExJxZV9zSRhS
 
 全部橙皮书入口：https://www.workbuddy.cn/space/d/YcllWXknAUoMk6lFSWdfbI
 
