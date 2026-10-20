@@ -33,6 +33,8 @@ Written by someone who has never written a single line of code by hand, yet buil
 
 ## What's New
 
+**Chinese edition v261020 (Oct 20, 2026)** — the Chinese edition has been revised for Codex CLI 0.163.0 and the GPT-6 model family (GPT-6.1 Sol, GPT-6 Astra, GPT-6 Luna), with 24 real-device CLI screenshots, the July move into the ChatGPT desktop app, reusable cloud environments, hooks, plugins and scheduled tasks. **This English edition is still v2.0.1 (May 2026)** and has not been updated yet.
+
 **v2.0.1 (May 15, 2026)** — addendum release:
 - Added a coda on **Codex on mobile** (shipped May 14, 2026): Codex inside the ChatGPT mobile app, a remote control surface for your desktop Codex App. Covered in §01, §06, and the FAQ.
 - **English edition now available** alongside the Chinese edition — native-prose translation, not a literal one.
@@ -56,13 +58,13 @@ See §00 for the full v1 → v2 changelog.
 | EPUB | [**Codex-Complete-Guide-en-v2.0.1.epub**](Codex-Complete-Guide-en-v2.0.1.epub) | 5.6 MB |
 | HTML (single file) | [**Codex-Complete-Guide-en-v2.0.1.html**](Codex-Complete-Guide-en-v2.0.1.html) | 232 KB |
 
-### Chinese edition (中文版)
+### Chinese edition (中文版) · v261020
 
 | Format | File | Size |
 |--------|------|------|
-| PDF | [**Codex-Complete-Guide-zh-v2.0.1.pdf**](Codex-Complete-Guide-zh-v2.0.1.pdf) | 4.2 MB |
-| EPUB (WeChat Reading optimized) | [**Codex-Complete-Guide-zh-v2.0.1.epub**](Codex-Complete-Guide-zh-v2.0.1.epub) | 5.6 MB |
-| HTML (single file) | [**Codex-Complete-Guide-zh-v2.0.1.html**](Codex-Complete-Guide-zh-v2.0.1.html) | 220 KB |
+| PDF | [**Codex-Complete-Guide-zh-v261020.pdf**](Codex-Complete-Guide-zh-v261020.pdf) | 9.2 MB |
+| EPUB (WeChat Reading optimized) | [**Codex-Complete-Guide-zh-v261020.epub**](Codex-Complete-Guide-zh-v261020.epub) | 4.2 MB |
+| HTML (single file, images inlined) | [**Codex-Complete-Guide-zh-v261020.html**](Codex-Complete-Guide-zh-v261020.html) | 3.7 MB |
 
 > 💡 Download the PDF for the best reading experience. GitHub's online preview may not render properly.
 

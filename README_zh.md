@@ -12,9 +12,9 @@
 
 # OpenAI Codex 从入门到精通
 
-> 橙皮书系列 · 花叔 著 · v2.0.1（2026 年 5 月）· 提供 **中文** 与 **英文** 双版本
+> 橙皮书系列 · 花叔 著 · 中文版 v261020（2026 年 10 月）· 英文版 v2.0.1（2026 年 5 月）
 
-OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App、Cloud、IDE 扩展、Chrome 扩展，外加 5 月 14 日发布的手机伴侣端。从安装到独立构建产品，一周内带你从零起步。
+OpenAI Codex 的完整实战手册。Codex 现在是一个 ChatGPT 账号、六个入口：CLI、ChatGPT 桌面 App、云端、IDE 扩展、浏览器扩展、手机。中文版 10 月修订基于 Codex CLI 0.163.0 真机实测，配 24 张实测截图，从安装登录到第一个任务一步一图。
 
 作者从未手写过一行代码，却用 AI 做出了 App Store 付费榜第一的产品、出版了 8 本技术书、运营着 30 万粉丝的自媒体矩阵。
 
@@ -32,6 +32,15 @@ OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App�
 </p>
 
 ## 更新说明
+
+**v261020（2026-10-20，中文版）** — 半年一修：
+- **模型整代换了**：GPT-5.5 在 10 月 14 日对 ChatGPT 登录的 Codex 退役，现在是 GPT-6.1 Sol、GPT-6 Astra、GPT-6 Luna
+- **产品形态变了**：7 月 9 日 Codex 并进 ChatGPT 桌面 App，Work 和 Codex 共用订阅和用量
+- **CLI 真机实测**：本机 0.163.0 跑一遍安装、登录、模型与推理档位、权限预设、斜杠菜单、`/goal`、`/import`、`/usage`，以及一次完整的小任务，24 张截图；`--full-auto`、`--api-key` 已删除，书里给出新写法
+- **云端改成可复用环境**，新增网络密钥、GitLab；hooks、插件、定时任务成为正式功能
+- **§10 重写**：按 10 月两家官方文档对照 Codex 与 Claude Code 的模型、价格、功能
+- **勘误**：5 月版几处写错的地方（Auto-review 数字的出处与含义、Laurenzo 分析的出处、「Anthropic 没做 /goal」等）集中写在卷首「10月补记」
+- 桌面 App 和云端这次没有上手实测，相关章节按官方文档整理并已注明
 
 **v2.0.1（2026-05-15）** — 临门补丁：
 - 加入 **Codex 手机版** 一节（2026-05-14 发布）：Codex 集成进 ChatGPT 手机端，本质是桌面 Codex App 的远程控制面板。§01、§06、附录 C 都做了对应说明。
@@ -52,11 +61,13 @@ OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App�
 
 | 格式 | 文件 | 大小 |
 |------|------|------|
-| PDF | [**Codex-Complete-Guide-zh-v2.0.1.pdf**](Codex-Complete-Guide-zh-v2.0.1.pdf) | 4.2 MB |
-| EPUB（微信读书优化版） | [**Codex-Complete-Guide-zh-v2.0.1.epub**](Codex-Complete-Guide-zh-v2.0.1.epub) | 5.6 MB |
-| HTML（单文件） | [**Codex-Complete-Guide-zh-v2.0.1.html**](Codex-Complete-Guide-zh-v2.0.1.html) | 220 KB |
+| PDF | [**Codex-Complete-Guide-zh-v261020.pdf**](Codex-Complete-Guide-zh-v261020.pdf) | 9.2 MB |
+| EPUB（微信读书优化版） | [**Codex-Complete-Guide-zh-v261020.epub**](Codex-Complete-Guide-zh-v261020.epub) | 4.2 MB |
+| HTML（单文件，含图） | [**Codex-Complete-Guide-zh-v261020.html**](Codex-Complete-Guide-zh-v261020.html) | 3.7 MB |
 
 ### 英文版 (English edition)
+
+英文版仍是 5 月的 v2.0.1，内容停在 GPT-5.5 时代，还没有跟进 10 月修订。
 
 | 格式 | 文件 | 大小 |
 |------|------|------|
@@ -70,11 +81,11 @@ OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App�
 
 | 部分 | 章节 | 主题 |
 |------|------|------|
-| **基础** | §01–§03 | Codex 五种形态（含手机版尾声）· 10 分钟安装 · 你的第一个项目 |
-| **日常工作流** | §04–§06 | CLI 深度使用（Auto-review 与沙箱）· AGENTS.md · 桌面 App 五件套与手机伴侣 |
-| **超出本地机器** | §07–§08 | Cloud 与 Chrome 扩展 · Skills、MCP、Automations、/goal 四大扩展能力 |
-| **构建真实产品** | §09–§10 | 从想法到上线 · Codex + Claude Code 双线开发者心智模型 |
-| **附录** | A–C | 命令速查（含 `/vim`、`/hooks`、`/goal`、`/ide`、`codex remote-control`）· 定价（三档 Pro）· 常见问题 |
+| **基础** | §01–§03 | 一个账号，六个入口 · 10 分钟开始用 Codex · 你的第一个任务（真机实测） |
+| **日常工作流** | §04–§06 | CLI 深度使用（被删的参数、模型与档位、权限、worktree）· AGENTS.md · 桌面 App 里的 Codex |
+| **超出本地机器** | §07–§08 | 云端：可复用环境与网络密钥 · Skills、插件、MCP、hooks、定时任务与 /goal |
+| **构建真实产品** | §09–§10 | 从零构建一个完整产品（流程示范）· Codex 和 Claude Code 两个都用时怎么分工 |
+| **附录** | A–C | 命令速查（0.163.0 的 56 个斜杠命令）· 定价与套餐（含 Claude 对照）· 常见问题 |
 
 ## 适合谁读
 
@@ -86,13 +97,10 @@ OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App�
 
 ## 不回避粗糙之处
 
-这本书不修饰：
-
-- SWE-Bench Pro：GPT-5.5 仍输给 Claude Opus 4.7（58.6% vs 64.3%）
-- GPT-5.5 在 Codex 内 1M 上下文实际可用约 258K
-- Windows 上 Full Access 模式确实删过用户全盘文件（370GB / 700GB / 240GB 多人证实），绝对不要开
-- MultiAgentV2 仍有三个 GitHub 未修 bug（#16657 / #17523 / #14233）
-- Codex 手机版（5/14）是桌面 App 的远程伴侣，不是手机上独立跑的 agent——别搞混
+- `--full-auto`、`--api-key`、`-a untrusted` 都已删除，照着旧教程敲会直接报错（书里有报错截图和新写法）
+- CLI 里 `/import` 按回车就直接导入了，会改 `~/.codex/config.toml`，先备份
+- Windows 上 Full Access 删过工作区以外文件的 issue（#18509）到 10 月 20 日仍是 open
+- Auto-review 的 99.1% 和 99.3% 有明确口径，OpenAI 自己也说它不能当安全保证
 
 ## 橙皮书系列
 
@@ -107,7 +115,7 @@ OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App�
 - Polymarket 指南
 - **OpenAI Codex 从入门到精通** ← 你在这里
 
-完整合集见 [huasheng.ai](https://www.huasheng.ai/)。
+完整合集见 [huasheng.ai/orange-books](https://www.huasheng.ai/orange-books)。
 
 ## 关于作者
 
@@ -120,6 +128,10 @@ OpenAI Codex 的完整实战手册，覆盖**五种形态**：CLI、桌面 App�
 - B 站：[花叔v](https://space.bilibili.com/14097567/)
 - 微信公众号：花叔
 - 官网：[huasheng.ai](https://www.huasheng.ai/)
+
+## 关注花叔
+
+<p align="center"><img src="https://raw.githubusercontent.com/alchaincyf/alchaincyf/main/assets/follow.svg" width="720" alt="关注花叔：公众号「花叔」、B站「花叔v」、小红书「花叔」" /></p>
 
 ## 📚 在线阅读（WorkBuddy）
 
